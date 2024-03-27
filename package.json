@@ -4,7 +4,9 @@
   "description": "razorpay",
   "main": "script.js",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "postcss main.css -o dist/styles.css && mkdir -p dist"
+
   },
   "author": "",
   "license": "ISC",
